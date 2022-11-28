@@ -58,3 +58,6 @@ docker build -t <imagename>
 
 Way to expose container hostport:container port
 docker run -p 8081:8080 tomcat
+
+To build docker Image which contains pre dockerfile without extension, We use the command 
+docker build -t <name-for-docker-image > .
